@@ -66,7 +66,7 @@ hr {
 	border: 0;
 	margin-bottom: 50px;
 }
-/*----Text Reveal */
+/*----Text Reveal and image for sightseeing */
 
 .image-1 {
 	background-image: url("https://images.unsplash.com/photo-1605985687800-b280f966c1c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80");
@@ -574,7 +574,7 @@ header .menu .active{
 	}
 }
 
-/*Destinations Section*/
+/*Destinations and SightSeeing Section*/
 
 #destinations .destinations .grid li {
 	height: 350px;
@@ -638,7 +638,7 @@ header .menu .active{
 	}
 }
 
-/*Testimonials Section*/
+/*Home Section*/
 
 #home .home .quote {
 	font-size: 22px;
@@ -657,6 +657,335 @@ header .menu .active{
 		font-size: 14px;
 	}
 }
+
+/*Gallery and Past Conference Section*/
+#gallery .gallery .grid li {
+	height: 350px;
+	padding: 20px;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: center;
+}
+#gallery .gallery .grid li {
+	height: 350px;
+	padding: 20px;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: center;
+}
+
+#gallery .gallery .grid li.small {
+	flex-basis: 30%;
+}
+
+#gallery .gallery .grid li.large {
+	flex-basis: 70%;
+}
+
+@media (max-width: 1100px) {
+	#gallery .gallery .grid li.small,
+	#gallery .gallery .grid li.large {
+		flex-basis: 50%;
+	}
+}
+
+@media (max-width: 800px) {
+	#gallery .gallery .grid li.small,
+	#gallery .gallery .grid li.large {
+		flex-basis: 100%;
+	}
+}
+/*----Text Reveal and image for sightseeing */
+/*------------------------------------- PAST CONFERENCE----------------------------------------------------- */
+.image-12 {
+	background-image: url("https://udm.ac.mu/srrnet-conf/2022/Images/photo-gallery/barcelos/1.jpg");
+    width: 500px;
+	height: 28px;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size:cover ;
+	text-decoration: underline;
+	
+}
+.image-12 p{
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.8s;
+	font-size: 1rem;
+	color: white;
+}
+.image-12:hover{
+	box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    
+}
+
+.image-12:hover p{
+	opacity: 1;
+	transform: scale(1);
+}
+
+.image-22 {
+	background-image: url("https://udm.ac.mu/srrnet-conf/2022/Images/photo-gallery/barcelos/3.jpg");
+    width: 500px;
+	height: 28px;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size:cover ;
+	text-decoration: underline;
+}
+.image-22 p{
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.8s;
+	font-size: 1rem;
+	color: white;
+}
+.image-22:hover{
+	box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    
+}
+
+.image-22:hover p{
+	opacity: 1;
+	transform: scale(1);
+}
+.image-32 {
+	background-image: url("https://udm.ac.mu/srrnet-conf/2022/Images/photo-gallery/barcelos/5.jpg");
+	width: 500px;
+	height: 28px;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size:cover ;
+	text-decoration: underline;
+}
+.image-32 p{
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.8s;
+	font-size: 1rem;
+	color: white;
+}
+.image-32:hover{
+	box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    
+}
+
+.image-32:hover p{
+	opacity: 1;
+	transform: scale(1);
+}
+.image-42 {
+	background-image: url("https://www.caudan.com/sites/default/files/styles/large/public/2019-04/Instagram%209.jpg?itok=PbXWLKgb");
+	width: 500px;
+	height: 28px;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size:cover ;
+	text-decoration: underline;
+
+}
+.image-42 p{
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.8s;
+	font-size: 1rem;
+	color: white;
+}
+.image-42:hover{
+	box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    
+}
+
+.image-42:hover p{
+	opacity: 1;
+	transform: scale(1);
+}
+
+.image-52 {
+	background-image: url("https://beauplan.mu/wp-content/uploads/2022/01/image-article-Beau-Plan.jpg");
+	width: 500px;
+	height: 28px;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size:cover ;
+	text-decoration: underline;
+}
+.image-52 p{
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.8s;
+	font-size: 1rem;
+	color: white;
+}
+.image-52:hover{
+	box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    
+}
+
+.image-52:hover p{
+	opacity: 1;
+	transform: scale(1);
+}
+
+.image-62 {
+	background-image: url("https://assets.traveltriangle.com/blog/wp-content/uploads/2015/02/Chamarel-Village.jpg");
+	width: 500px;
+	height: 28px;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size:cover ;
+	text-decoration: underline;
+}
+.image-62 p{
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.8s;
+	font-size: 1rem;
+	color: white;
+}
+.image-62:hover{
+	box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    
+}
+
+.image-62:hover p{
+	opacity: 1;
+	transform: scale(1);
+}
+
+.image-72 {
+	background-image: url("https://mauritiusattractions.com/slir/w854/content/images/guide/i-337/waterfalls-in-mauritius%20(1).jpg");
+	width: 500px;
+	height: 28px;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size:cover ;
+	text-decoration: underline;
+}
+.image-72 p{
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.8s;
+	font-size: 1rem;
+	color: white;
+}
+.image-72:hover{
+	box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    
+}
+
+.image-72:hover p{
+	opacity: 1;
+	transform: scale(1);
+}
+
+.image-82 {
+	background-image: url("https://mauritiusattractions.com/newassets/images/0.22886400-1656309623-hiking-trip-black-river-gorges-park-half.jpg");
+	width: 500px;
+	height: 28px;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size:cover ;
+	text-decoration: underline;
+}
+
+.image-82 p{
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.8s;
+	font-size: 1rem;
+	color: white;
+}
+.image-82:hover{
+	box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    
+}
+
+.image-82:hover p{
+	opacity: 1;
+	transform: scale(1);
+}
+.image-92 {
+	background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/b3/cc.jpg");
+	width: 500px;
+	height: 28px;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size:cover ;
+	text-decoration: underline;
+}
+.image-92 p{
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.8s;
+	font-size: 1rem;
+	color: white;
+}
+.image-92:hover{
+	box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    
+}
+
+.image-92:hover p{
+	opacity: 1;
+	transform: scale(1);
+}
+.image-102 {
+	background-image: url("https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRp-rNcNebMpVHKsj-c11k2Bh-EWyJ8sREzjV9xGrphhaIJRdksTnGEr5VmyPd56CFbkasvNzLFMFKlZzQfG5jlHQ");
+	width: 500px;
+	height: 28px;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size:cover ;
+	text-decoration: underline;
+}
+.image-102 p{
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.8s;
+	font-size: 1rem;
+	color: white;
+}
+.image-102:hover{
+	box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    
+}
+
+.image-102:hover p{
+	opacity: 1;
+	transform: scale(1);
+}
+/*------------------------------------- PAST CONFERENCE----------------------------------------------------- */
 
 /*Contact Section*/
 

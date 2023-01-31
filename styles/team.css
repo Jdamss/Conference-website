@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.team-section{
+  width: 100%;
+}
+
+.team-section .team-container{
+     width:80%;
+     margin:auto;
+
+}
+
+.team-section .team-container .row{
+    width:60%;
+    margin:auto;
+    
+}
+
+.team-section .team-container .row .title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.team-section .team-container .row .title h1{
+   font-size: 50px;
+   text-transform: uppercase;
+   letter-spacing: 1.5px;
+   color: rgb(0, 88, 138);
+}
+
+.team-section .team-container .row .title p{
+    font-size: 18px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   margin: 30px 0px;
+   color: rgb(35, 31, 32);
+ }
+ 
+.team-section .team-container .team-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+    
+ }
+ .team-section .team-container .team-card .card{
+    width: 100%;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    cursor: pointer;
+
+ }
+ .team-section .team-container .team-card .card:hover{
+    background-color: rgb(167, 169, 172);
+    transition: 0.3s;
+ }
+
+ .team-section .team-container .team-card .card .image-section img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+
+ }
+
+ .team-section .team-container .team-card .content{
+    width: 100%;
+    text-align: center;
+ }
+ .team-section .team-container .team-card .content h3{
+   font-size: 27px;
+   margin-top: 10px;
+   letter-spacing: 1.5px;
+   color: rgb(84, 198, 211);
+ }
+ .team-section .team-container .team-card .content h4{
+    font-size: 17px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: rgb(84, 198, 211);
+  }
+  .team-section .team-container .team-card .content p{
+    font-size: 15px;
+    margin-top: 16px 0px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    line-height: 1.5;
+    color: rgb(35, 31, 32);
+  }
+
+
+
+  .team-section .team-container .team-card .content .sci{
+     margin-top: 20px;
+}
+
+.team-section .team-container .team-card .content.sci a{
+   text-decoration: none;
+   color: rgb(35, 31, 32);
+   font-size: 30px;
+   margin: 10px;
+   transition: color 0.4s;
+}
+
+.team-section .team-container .team-card .content .sci a:hover{
+    
+    color: rgb(0, 88, 138);
+    transition: 0.3s;
+ }
+
+ @media screen and (max-width:900px){
+    
+.team-section .team-container .team-card{
+   
+    grid-template-columns: repeat(2, 1fr);
+    
+ }
+ }
+
+ @media screen and (max-width:900px){
+    
+    .team-section .team-container .team-card{
+       
+        grid-template-columns: 1fr;
+      
+        
+     }
+        
+     }

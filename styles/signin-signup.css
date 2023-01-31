@@ -244,7 +244,7 @@ body,input {
   transform: translateX(800px);
 }
 
-/* ANIMATION */
+/*------------------ ANIMATION ------------------------------------------------------*/
 
 #signinandsignup .container.sign-up-mode:before {
   transform: translate(100%, -50%);

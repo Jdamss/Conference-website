@@ -783,8 +783,9 @@ header .menu .active{
 	opacity: 1;
 	transform: scale(1);
 }
+
 .image-42 {
-	background-image: url("https://www.caudan.com/sites/default/files/styles/large/public/2019-04/Instagram%209.jpg?itok=PbXWLKgb");
+	background-image: url("https://udm.ac.mu/srrnet-conf/2022/Images/photo-gallery/bangalore/1.jpg");
 	width: 500px;
 	height: 28px;
 	transition: 0.5s;
@@ -796,6 +797,7 @@ header .menu .active{
 	text-decoration: underline;
 
 }
+
 .image-42 p{
 	opacity: 0;
 	transform: scale(0);
@@ -814,7 +816,7 @@ header .menu .active{
 }
 
 .image-52 {
-	background-image: url("https://beauplan.mu/wp-content/uploads/2022/01/image-article-Beau-Plan.jpg");
+	background-image: url("https://udm.ac.mu/srrnet-conf/2022/Images/photo-gallery/bangalore/5.jpg");
 	width: 500px;
 	height: 28px;
 	transition: 0.5s;
@@ -843,7 +845,7 @@ header .menu .active{
 }
 
 .image-62 {
-	background-image: url("https://assets.traveltriangle.com/blog/wp-content/uploads/2015/02/Chamarel-Village.jpg");
+	background-image: url("https://udm.ac.mu/srrnet-conf/2022/Images/photo-gallery/bangalore/6.jpg");
 	width: 500px;
 	height: 28px;
 	transition: 0.5s;
@@ -872,7 +874,7 @@ header .menu .active{
 }
 
 .image-72 {
-	background-image: url("https://mauritiusattractions.com/slir/w854/content/images/guide/i-337/waterfalls-in-mauritius%20(1).jpg");
+	background-image: url("https://udm.ac.mu/srrnet-conf/2022/Images/photo-gallery/buxton/2.jpg");
 	width: 500px;
 	height: 28px;
 	transition: 0.5s;
@@ -901,7 +903,7 @@ header .menu .active{
 }
 
 .image-82 {
-	background-image: url("https://mauritiusattractions.com/newassets/images/0.22886400-1656309623-hiking-trip-black-river-gorges-park-half.jpg");
+	background-image: url("https://udm.ac.mu/srrnet-conf/2022/Images/photo-gallery/buxton/3.jpg");
 	width: 500px;
 	height: 28px;
 	transition: 0.5s;
@@ -930,7 +932,7 @@ header .menu .active{
 	transform: scale(1);
 }
 .image-92 {
-	background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/b3/cc.jpg");
+	background-image: url("https://udm.ac.mu/srrnet-conf/2022/Images/photo-gallery/melbourne/2.jpg");
 	width: 500px;
 	height: 28px;
 	transition: 0.5s;
@@ -958,7 +960,7 @@ header .menu .active{
 	transform: scale(1);
 }
 .image-102 {
-	background-image: url("https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRp-rNcNebMpVHKsj-c11k2Bh-EWyJ8sREzjV9xGrphhaIJRdksTnGEr5VmyPd56CFbkasvNzLFMFKlZzQfG5jlHQ");
+	background-image: url("https://udm.ac.mu/srrnet-conf/2022/Images/photo-gallery/brazil/3.jpg");
 	width: 500px;
 	height: 28px;
 	transition: 0.5s;

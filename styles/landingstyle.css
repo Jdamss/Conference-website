@@ -492,7 +492,7 @@ header .menu .active{
 	padding: 0 15px;
   }
 }
-/*Header Styles---------------------------*/
+/*Header Styles------------------------------------------------------------------------------------------------------------*/
 
 
 @keyframes fadein {
@@ -501,7 +501,7 @@ header .menu .active{
 	}
 }
 
-/*Hero Styles*/
+/*Hero Styles--------------------------------------------------------------------------------------------------------*/
 
 .hero {
 	position: relative;
@@ -573,8 +573,9 @@ header .menu .active{
 		padding: 15px 40px;
 	}
 }
+/*Hero Styles--------------------------------------------------------------------------------------------------------*/
 
-/*Destinations and SightSeeing Section*/
+/*Destinations and SightSeeing Section-----------------------------------------------------------------------------------*/
 
 #destinations .destinations .grid li {
 	height: 350px;
@@ -613,7 +614,7 @@ header .menu .active{
 	}
 }
 
-/*Venue Section*/
+/*-----------------Venue Section---------------------------------------------------------------------*/
 
 .venue .grid li {
 	padding: 50px;
@@ -658,7 +659,7 @@ header .menu .active{
 	}
 }
 
-/*Gallery and Past Conference Section*/
+/*Gallery and Past Conference Section---------------------------------------------------------------*/
 #gallery .gallery .grid li {
 	height: 350px;
 	padding: 20px;
@@ -1070,8 +1071,9 @@ footer p {
 		margin: 0 8px;
 	}
 }
-/*--------------book--------*/
-/*--------------about--------*/
+/*--------------book----------------------------------------------------------------------*/
+
+/*--------------about---------------------------------------------------------------------*/
 .top {
 	margin-top: 10%;
   }
@@ -1150,6 +1152,6 @@ footer p {
 	color: white;
   }
 
-  
+  /*--------------about---------------------------------------------------------------------*/
 
   

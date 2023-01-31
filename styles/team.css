@@ -130,9 +130,6 @@
     
     .team-section .team-container .team-card{
        
-        grid-template-columns: 1fr;
-      
-        
+        grid-template-columns: 1fr;      
      }
-        
-     }
+  }
